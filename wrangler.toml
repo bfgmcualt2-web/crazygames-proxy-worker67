@@ -1,0 +1,12 @@
+name = "crazygames-proxy-worker67"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+TARGET_HOST = "crazygames.com"
+TARGET_SCHEME = "https"
+ALLOWED_ASSET_HOSTS = "crazygames.com,cdn.crazygames.com,static.crazygames.com,images.crazygames.com,assets.crazygames.com,media.crazygames.com"
+
+[env.production]
+name = "crazygames-proxy-worker-prod"
